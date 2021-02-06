@@ -24,7 +24,7 @@ describe('The notification viewer', () => {
 
   // it('pass', () => {});
 
-  it('should display the correct number of notifications', async() => {
+  it.skip('should display the correct number of notifications', async() => {
     const tree = renderer.create(<NotificationsViewer />);
     const wrapper = shallow(<NotificationsViewer />);
 
